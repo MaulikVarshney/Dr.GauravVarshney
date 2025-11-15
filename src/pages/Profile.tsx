@@ -2,11 +2,11 @@ export default function Profile() {
     return (
         <div className="flex flex-col md:flex-row items-center md:items-start justify-center p-8 gap-10 max-w-5xl mx-auto bg-white shadow-lg rounded-xl mt-8">
             {/* Profile Image */}
-            <img
-                src="public/image/ProfilePic.jpg"
-                alt="Dr. Gaurav Varshney"
-                className="w-48 h-48 object-cover rounded-full border-4 border-gray-200 shadow-md"
+            <img src="/Dr.GauravVarshney/image/ProfilePic.jpg"
+                 alt="Dr. Gaurav Varshney"
+                 className="w-52 h-52 object-contain rounded-full border-4 border-gray-200 shadow-md bg-gray-50 p-1"
             />
+
 
             {/* Profile Details */}
             <div>
